@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Documents</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav id='navbar'>
+		<header>Ipsum Documentation</header>
+		<ul>
+            <a class="nav-link" href="#Introduction"><li>Introduction</li></a>
+			<a class="nav-link" href='#Prerequisites'><li>Prerequisites</li></a>
+			<a class="nav-link" href='#Javascript'><li>Javascript</li></a>
+			<a class="nav-link" href='#Hello_World'><li>Hello World</li></a>
+            <a class="nav-link" href="#Variables"><li>Variables</li></a>
+            <a class="nav-link" href="#Declaring_Variables"><li>Declaring Variables</li></a>
+            <a class="nav-link" href="#Variable_Scope"><li>Variable Scope</li></a>
+            <a class="nav-link" href="#Global_Variables"><li>Global Variables</li></a>
+            <a class="nav-link" href="#Constants"><li>Constants</li></a>
+            <a class="nav-link" href="#Data_Types"><li>Data Types</li></a>
+            <a class="nav-link" href="#References"><li>References</li></a>
+		</ul>
+	</nav>
+	<main id='main-doc'>
+		<section class='main-section' id='Introduction'>
+			<header>Introduction</header>
+			<article>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere, diam vel congue ultricies, justo ante pellentesque neque, vel bibendum odio diam quis felis. Suspendisse sagittis viverra bibendum. Nam sit amet orci quis neque aliquet luctus. Fusce ullamcorper commodo urna ac vestibulum. Suspendisse id ante eget est dapibus suscipit. Mauris auctor consectetur sapien et sollicitudin. Cras rutrum vel risus a lobortis. </p>
+				<p>Aliquam quis erat mattis, finibus nibh vel, sodales orci. Nullam sodales tortor eget congue tempor. Mauris quis congue odio, ac volutpat sem. Cras maximus ultricies est id maximus. Proin ac posuere quam. Maecenas sit amet condimentum turpis. Suspendisse accumsan sem turpis, suscipit mollis risus interdum interdum. Ut rutrum magna quis dui mollis blandit. Nunc mattis ullamcorper sapien, nec malesuada mi malesuada hendrerit.</p>
+				<li>Duis tempus ultrices iaculis. Nulla a turpis volutpat, aliquet diam eu, tincidunt ipsum. Morbi laoreet nec purus vitae maximus.</li>
+				<li>Praesent nec quam aliquet, tristique magna vel, pulvinar dui. Donec posuere scelerisque augue, vel semper libero ornare non. In vestibulum mollis nulla, in ornare risus commodo ut.</li>
+			</article>
+		</section>	
+        <section class='main-section' id='Prerequisites'>
+			<header>Prerequisites</header>
+			<article>
+				<p>Aliquam fringilla tincidunt mi, ac gravida sem mollis ut. Aenean sed augue nec lectus luctus convallis. Nunc posuere dapibus purus a elementum. Nulla pellentesque pharetra magna, at imperdiet erat condimentum sed. Morbi interdum dignissim massa et tempus. Proin vitae pellentesque neque.</p>
+				<p>Aliquam massa tortor, pretium molestie tempor vitae, varius in urna. Phasellus sagittis, lacus nec posuere semper, lectus metus vulputate neque, vitae mollis lacus ex sed enim. Mauris vel enim mauris. Donec ante enim, rutrum ac turpis ac, dapibus mollis nisi. Integer dignissim augue et dignissim efficitur. Duis euismod bibendum ornare.</p>
+				<li>Donec consectetur ligula dui, ut feugiat enim cursus id. Morbi luctus ultrices magna, quis rhoncus turpis dignissim sed.</li>
+				<li>Aliquam malesuada ex at erat eleifend convallis.</li>
+			</article>
+		</section>
+        <section class='main-section' id='Javascript'>
+			<header>Javascript</header>
+			<article>
+				<p>Sed luctus ligula vitae elit faucibus porta. Nulla a eleifend risus, sit amet tristique lorem. Integer ut consectetur mi, commodo pharetra ante. Cras vitae arcu viverra, molestie magna vitae, efficitur nisl. Duis congue quis diam et sollicitudin. In hac habitasse platea dictumst. Vestibulum faucibus placerat eros quis egestas.</p>
+				<p>Ut interdum sit amet sapien et tincidunt. Vivamus sit amet turpis lectus. Ut porta, dui sed cursus condimentum, nisi odio feugiat justo, ut consequat libero leo sit amet est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer consectetur iaculis lobortis. Duis ullamcorper sapien in metus tincidunt suscipit. Sed nec diam eleifend, molestie arcu ac, facilisis urna. Ut bibendum facilisis consectetur. Ut ac accumsan magna, vitae egestas nibh.</p>
+				<code>
+                public class Factorial
+                {
+	               public static void main(String[] args)
+                    {	final int NUM_FACTS = 100;
+                        for(int i = 0; i < NUM_FACTS; i++)
+                            System.out.println( i + "! is " + factorial(i));
+                    }
+
+                    public static int factorial(int n)
+                    {	int result = 1;
+                        for(int i = 2; i <= n; i++)
+                            result *= i;
+                        return result;
+                    }
+                }
+                </code>
+			</article>
+		</section>
+        <section class='main-section' id='Hello_World'>
+            <header>Hello World</header>
+            <article>
+                <p>Amet penatibus integer aliquam euismod eros id dictumst faucibus sollicitudin. Imperdiet posuere elit diam rhoncus, sed habitasse sociis consequat magna ornare varius. Arcu fusce ac amet dignissim libero elit ultrices. Ultrices purus dictumst urna interdum tempor in? Dictumst a pulvinar ullamcorper. Aliquam dictumst leo sapien! Venenatis curabitur est curabitur porttitor et, netus urna vel. Primis cum consectetur venenatis malesuada. Commodo facilisi venenatis eleifend ac lorem curabitur. Est praesent ut rutrum vehicula magnis imperdiet ante vel tempor vehicula! Aliquam rutrum in accumsan eu.</p>
+				<p>Aliquet convallis vehicula mollis ante ornare massa vulputate. Tempor porttitor nisl pharetra! Lacinia tellus est libero mattis fusce mollis, commodo conubia lectus! Nibh porttitor faucibus luctus. Himenaeos condimentum commodo, donec montes ligula dapibus. Et montes dignissim porta est.</p>
+				<code>function greetMe(yourName){
+                    alert("Hello " + yourName);
+                    }
+                    greetMe("World");
+                </code>
+            </article>
+        
+        </section>
+        <section class='main-section' id='Variables'>
+			<header>Variables</header>
+			<article>
+				<p>Pharetra quisque eros dignissim. Lorem ante placerat torquent mauris ullamcorper. Natoque donec vehicula luctus accumsan. Quisque conubia erat viverra justo dictumst iaculis ridiculus condimentum vestibulum ante sodales. Iaculis, ridiculus malesuada eleifend. Venenatis augue consequat orci eleifend ut nam eget? Lacus imperdiet vivamus, ridiculus odio. At elit eget dolor pulvinar vestibulum posuere feugiat.</p>
+				<p>Taciti montes vel felis tempor cursus nisi tristique! Iaculis penatibus justo dignissim! Primis mollis dis congue massa ultrices aliquam eu accumsan non integer tellus. Neque pretium cum curabitur ante mi amet orci lorem himenaeos imperdiet. Nascetur dictumst nostra dis felis vitae cursus cum litora. Torquent interdum sem condimentum interdum.</p>
+				<li>Ligula sodales tristique gravida facilisis mollis placerat lobortis dolor bibendum imperdiet cras. Habitasse praesent nisi habitasse vestibulum facilisis tellus habitasse porttitor facilisi enim. Feugiat taciti odio pellentesque! Torquent?</li>
+				<li>Curabitur ligula nascetur egestas vitae nisl tellus penatibus eu in justo massa. Tincidunt primis at ullamcorper tincidunt volutpat sollicitudin turpis ultricies taciti a.</li>
+			</article>
+		</section>
+        <section class='main-section' id='Declaring_Variables'>
+			<header>Declaring Variables</header>
+			<article>
+				<p>Pharetra quisque eros dignissim. Lorem ante placerat torquent mauris ullamcorper. Natoque donec vehicula luctus accumsan. Quisque conubia erat viverra justo dictumst iaculis ridiculus condimentum vestibulum ante sodales. Iaculis, ridiculus malesuada eleifend. Venenatis augue consequat orci eleifend ut nam eget? Lacus imperdiet vivamus, ridiculus odio. At elit eget dolor pulvinar vestibulum posuere feugiat.</p>
+				<p>Taciti montes vel felis tempor cursus nisi tristique! Iaculis penatibus justo dignissim! Primis mollis dis congue massa ultrices aliquam eu accumsan non integer tellus. Neque pretium cum curabitur ante mi amet orci lorem himenaeos imperdiet. Nascetur dictumst nostra dis felis vitae cursus cum litora. Torquent interdum sem condimentum interdum.</p>
+				<li>Ligula sodales tristique gravida facilisis mollis placerat lobortis dolor bibendum imperdiet cras. Habitasse praesent nisi habitasse vestibulum facilisis tellus habitasse porttitor facilisi enim. Feugiat taciti odio pellentesque! Torquent?</li>
+				<li>Curabitur ligula nascetur egestas vitae nisl tellus penatibus eu in justo massa. Tincidunt primis at ullamcorper tincidunt volutpat sollicitudin turpis ultricies taciti a.</li>
+			</article>
+		</section>
+        <section class='main-section' id='Variable_Scope'>
+			<header>Variable Scope</header>
+			<article>
+				<p>Pharetra quisque eros dignissim. Lorem ante placerat torquent mauris ullamcorper. Natoque donec vehicula luctus accumsan. Quisque conubia erat viverra justo dictumst iaculis ridiculus condimentum vestibulum ante sodales. Iaculis, ridiculus malesuada eleifend. Venenatis augue consequat orci eleifend ut nam eget? Lacus imperdiet vivamus, ridiculus odio. At elit eget dolor pulvinar vestibulum posuere feugiat.</p>
+				<p>Taciti montes vel felis tempor cursus nisi tristique! Iaculis penatibus justo dignissim! Primis mollis dis congue massa ultrices aliquam eu accumsan non integer tellus. Neque pretium cum curabitur ante mi amet orci lorem himenaeos imperdiet. Nascetur dictumst nostra dis felis vitae cursus cum litora. Torquent interdum sem condimentum interdum.</p>
+				<li>Ligula sodales tristique gravida facilisis mollis placerat lobortis dolor bibendum imperdiet cras. Habitasse praesent nisi habitasse vestibulum facilisis tellus habitasse porttitor facilisi enim. Feugiat taciti odio pellentesque! Torquent?</li>
+				<code>
+                    /* HelloWorld.java */
+                    public class HelloWorld
+                    {
+                        public static void main(String[] args) {
+                        System.out.println("Hello World!");
+	                   }
+                    }
+                </code>
+			</article>
+		</section>
+        <section class='main-section' id='Global_Variables'>
+			<header>Global Variables</header>
+			<article>
+				<p>Pharetra quisque eros dignissim. Lorem ante placerat torquent mauris ullamcorper. Natoque donec vehicula luctus accumsan. Quisque conubia erat viverra justo dictumst iaculis ridiculus condimentum vestibulum ante sodales. Iaculis, ridiculus malesuada eleifend. Venenatis augue consequat orci eleifend ut nam eget? Lacus imperdiet vivamus, ridiculus odio. At elit eget dolor pulvinar vestibulum posuere feugiat.</p>
+				<p>Taciti montes vel felis tempor cursus nisi tristique! Iaculis penatibus justo dignissim! Primis mollis dis congue massa ultrices aliquam eu accumsan non integer tellus. Neque pretium cum curabitur ante mi amet orci lorem himenaeos imperdiet. Nascetur dictumst nostra dis felis vitae cursus cum litora. Torquent interdum sem condimentum interdum.</p>
+				<code>var obj = {
+                    foo() {
+                        return 'bar';
+                        }
+                    }
+                    console.log(obj.foo());
+                    // expected output: "bar"
+                </code>
+			</article>
+		</section>
+        <section class='main-section' id='Constants'>
+			<header>Constants</header>
+			<article>
+				<p>Pharetra quisque eros dignissim. Lorem ante placerat torquent mauris ullamcorper. Natoque donec vehicula luctus accumsan. Quisque conubia erat viverra justo dictumst iaculis ridiculus condimentum vestibulum ante sodales. Iaculis, ridiculus malesuada eleifend. Venenatis augue consequat orci eleifend ut nam eget? Lacus imperdiet vivamus, ridiculus odio. At elit eget dolor pulvinar vestibulum posuere feugiat.</p>
+				<p>Taciti montes vel felis tempor cursus nisi tristique! Iaculis penatibus justo dignissim! Primis mollis dis congue massa ultrices aliquam eu accumsan non integer tellus. Neque pretium cum curabitur ante mi amet orci lorem himenaeos imperdiet. Nascetur dictumst nostra dis felis vitae cursus cum litora. Torquent interdum sem condimentum interdum.</p>
+				<li>Ligula sodales tristique gravida facilisis mollis placerat lobortis dolor bibendum imperdiet cras. Habitasse praesent nisi habitasse vestibulum facilisis tellus habitasse porttitor facilisi enim. Feugiat taciti odio pellentesque! Torquent?</li>
+				<li>Curabitur ligula nascetur egestas vitae nisl tellus penatibus eu in justo massa. Tincidunt primis at ullamcorper tincidunt volutpat sollicitudin turpis ultricies taciti a.</li>
+			</article>
+		</section>
+        <section class='main-section' id='Data_Types'>
+			<header>Data Types</header>
+			<article>
+				<p>Pharetra quisque eros dignissim. Lorem ante placerat torquent mauris ullamcorper. Natoque donec vehicula luctus accumsan. Quisque conubia erat viverra justo dictumst iaculis ridiculus condimentum vestibulum ante sodales. Iaculis, ridiculus malesuada eleifend. Venenatis augue consequat orci eleifend ut nam eget? Lacus imperdiet vivamus, ridiculus odio. At elit eget dolor pulvinar vestibulum posuere feugiat.</p>
+				<p>Taciti montes vel felis tempor cursus nisi tristique! Iaculis penatibus justo dignissim! Primis mollis dis congue massa ultrices aliquam eu accumsan non integer tellus. Neque pretium cum curabitur ante mi amet orci lorem himenaeos imperdiet. Nascetur dictumst nostra dis felis vitae cursus cum litora. Torquent interdum sem condimentum interdum.</p>
+				<li>Ligula sodales tristique gravida facilisis mollis placerat lobortis dolor bibendum imperdiet cras. Habitasse praesent nisi habitasse vestibulum facilisis tellus habitasse porttitor facilisi enim. Feugiat taciti odio pellentesque! Torquent?</li>
+				<code>
+                function myFunction(p1, p2) {
+                    return p1 * p2;        // The function returns the product of p1 and p2
+                    }
+                </code>
+			</article>
+		</section>
+        <section class='main-section' id='References'>
+			<header>References</header>
+			<article>
+				<p>Pharetra quisque eros dignissim. Lorem ante placerat torquent mauris ullamcorper. Natoque donec vehicula luctus accumsan. Quisque conubia erat viverra justo dictumst iaculis ridiculus condimentum vestibulum ante sodales. Iaculis, ridiculus malesuada eleifend. Venenatis augue consequat orci eleifend ut nam eget? Lacus imperdiet vivamus, ridiculus odio. At elit eget dolor pulvinar vestibulum posuere feugiat.</p>
+				<p>Taciti montes vel felis tempor cursus nisi tristique! Iaculis penatibus justo dignissim! Primis mollis dis congue massa ultrices aliquam eu accumsan non integer tellus. Neque pretium cum curabitur ante mi amet orci lorem himenaeos imperdiet. Nascetur dictumst nostra dis felis vitae cursus cum litora. Torquent interdum sem condimentum interdum.</p>
+				<li>Ligula sodales tristique gravida facilisis mollis placerat lobortis dolor bibendum imperdiet cras. Habitasse praesent nisi habitasse vestibulum facilisis tellus habitasse porttitor facilisi enim. Feugiat taciti odio pellentesque! Torquent?</li>
+				<li>Curabitur ligula nascetur egestas vitae nisl tellus penatibus eu in justo massa. Tincidunt primis at ullamcorper tincidunt volutpat sollicitudin turpis ultricies taciti a.</li>
+			</article>
+		</section>
+	</main>
+</body>
+</html>
